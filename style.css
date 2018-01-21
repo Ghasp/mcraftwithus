@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-family: 'Bungee', monospace;
+    background-color: rgb(33, 33, 33);
+}
+
+#MainTitle {
+    font-size: 3em;
+    text-align: center;
+    color: lightblue;
+    padding: .5em;
+    background-color: rgb(33, 33, 33);
+}
+
+.subtitle {
+    font-size: 2em;
+    text-align: center;
+    color: red;
+    padding: .5em;
+
+
+}
+
+.paragraph {
+    font-size: 1em;
+    text-align: center;
+    color: black;
+    padding: .2em;
+}
+
+#ServerInfo {
+    font-size: 1em;
+    text-align: center;
+    color: lightgray;
+    background-color: rgb(33, 33, 33);
+    padding: 2em;
+}
+
+#picture1 {
+    width: 100%;
+    text-align: center;
+    background-color: rgb(33, 33, 33);
+}
+
+#mcraftblock {
+    width: 100px;
+    margin: 0 auto;
+}
+
+#Disclaimer {
+    font-size: 1em;
+    text-align: center;
+    color: rgb(33, 33, 33);
+    background-color: lightgray;
+    padding-top: .5em;
+    padding-bottom: 2em;
+
+}
