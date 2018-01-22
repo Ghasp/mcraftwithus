@@ -8,6 +8,10 @@ body {
     flex-direction: column;
 }
 
+*{
+    padding-top: 1em;
+}
+
 #MainTitle {
     font-size: 3em;
     text-align: center;
