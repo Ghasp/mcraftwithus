@@ -8,10 +8,10 @@ body {
     flex-direction: column;*/
     display: grid;
     grid-template-areas: 
-        'header header header'
-        'nav nav nav'
-        'buildinfo buildinfo buildinfo'
-        'footer footer footer';
+        'header header header header'
+        '. nav nav .'
+        '. buildinfo buildinfo .'
+        'footer footer footer footer';
 }
 /*
 *{
@@ -38,7 +38,27 @@ body {
 /* nav done by Reah*/
 nav {
     grid-area: nav;
-    text-align: center
+    text-align: center;
+    border-style: solid;
+    border-width: 4px;
+    border-color: rgb(158, 203, 255);
+}
+
+a {
+    text-decoration: none;
+    padding: 1em;
+}
+
+a:link {
+    color:lightgray;
+}
+
+a:visited {
+    color: lightblue;
+}
+
+a:hover {
+    color: red;
 }
 
 .paragraph {
