@@ -8,10 +8,10 @@ body {
     flex-direction: column;*/
     display: grid;
     grid-template-areas: 
-        'header header header header'
-        'nav nav nav nav'
-        '. picture serverinfo .'
-        'footer footer footer footer';
+        'header header header'
+        'nav nav nav'
+        'buildinfo buildinfo buildinfo'
+        'footer footer footer';
 }
 /*
 *{
@@ -48,26 +48,14 @@ nav {
     padding: .2em;
 }
 
-#ServerInfo {
-    grid-area: serverinfo;
+#BuildInfo {
+    grid-area: buildinfo;
     font-size: 1em;
     text-align: center;
     color: lightgray;
     background-color: rgb(33, 33, 33);
     
 }
-
-/*#picture1 {
-    grid-area: picture;
-    width: 100%;
-    text-align: center;
-    background-color: rgb(33, 33, 33);
-}*/
-
-/*#mcraftblock {
-    width: 100px;
-    margin: 0 auto;
-}*/
 
 #Disclaimer {
     grid-area: footer;
@@ -78,11 +66,4 @@ nav {
     padding-top: .5em;
     padding-bottom: 2em;
 
-}
-
-#me{
-    grid-area: picture;
-    height: 150px;
-    max-height: 150px;
-    padding: 0em 2em 0em 3em;
 }
